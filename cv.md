@@ -1,6 +1,6 @@
 # Dima Myagkov
 
-![Photo](https://drive.google.com/file/d/1Ww4ziNrEpk5Okv8Muo3PPP3tLKK0e_Dy/view?usp=sharing)
+<img src="https://github.com/johndoe/myrepo/blob/main/profile.jpg" alt="Dima Myagkov" width="50%" height="50%">
 
 ## Contact Information
 - **Email:** dimon.mykish@gmail.com
@@ -25,6 +25,7 @@ Aspiring frontend developer with a strong foundation in programming and a passio
 ## Code Examples
 
 ![Codewars](https://www.codewars.com/users/TeamOnchik/badges/small)
+
 Here is a solution to a problem from Codewars:
 
 'You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.'

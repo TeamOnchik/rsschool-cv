@@ -1,6 +1,6 @@
 # Dima Myagkov
 
-<img src="https://github.com/TeamOnchik/myPersonalFiles/blob/main/profilePhotoDimaMyagkov.jpg" alt="Dima Myagkov" width="50%" height="50%">
+<img src="https://github.com/TeamOnchik/myPersonalFiles/blob/main/profilePhotoDimaMyagkov.jpg" alt="Dima Myagkov" width="30%" height="30%">
 
 ## Contact Information
 - **Email:** dimon.mykish@gmail.com

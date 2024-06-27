@@ -13,6 +13,9 @@
 Aspiring frontend developer with a strong foundation in programming and a passion for learning new technologies. My goal is to contribute to impactful projects while continuously enhancing my skills. I am self-motivated, detail-oriented, and thrive in collaborative environments.
 
 ## Skills
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,figma,git,ps,github,react,ts&perline=3)](https://skillicons.dev)
+
 - **Programming Languages:** JavaScript, HTML, CSS
 - **Frameworks:** I study React, Node.js
 - **Methodologies:** Agile, Scrum, Kanban
@@ -20,6 +23,8 @@ Aspiring frontend developer with a strong foundation in programming and a passio
 - **Development Tools:** VSCode, Make, Lodash, Commander.js
 
 ## Code Examples
+
+![Codewars](https://www.codewars.com/users/TeamOnchik/badges/small)
 Here is a solution to a problem from Codewars:
 
 'You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.'

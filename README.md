@@ -1,1 +1,1 @@
-[Welcome! Check out my CV.](https://github.com/TeamOnchik/rsschool-cv/)
+[Welcome! Check out my CV.](https://github.com/TeamOnchik/rsschool-cv/cv)

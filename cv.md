@@ -35,6 +35,7 @@ function getMiddle(s)
     return s.charAt(middlePoint + 1)
   }
 }
+```
 
 ## Work Experience
 ### Project: Game: 'Brain Games'

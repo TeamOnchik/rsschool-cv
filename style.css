@@ -2,3 +2,143 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	background-color: #24c285;
+}
+
+.bodyWrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+  
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #24c285;
+	border-right: 2px solid #fff;
+	border-top:  2px solid #fff;
+	border-left:   2px solid #fff;
+	border-radius: 25px 25px 0 0;
+	margin-top: 5px;
+
+ }
+  
+.menu {
+	display: block;
+	font-size: 1.3em;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	padding: 15px 0;
+}
+  
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #020E5D;
+	text-decoration: underline;
+}
+  
+nav a:hover {
+	color: #fff;
+	text-decoration: none;
+	border-color: #fff;
+	border: solid 2px;
+	border-radius: 7px;
+	padding: 7px 3px;
+}
+  
+h1 {
+	color: #020E5D;
+	padding: 15px 0;
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+h2 {
+	color: #020E5D;
+	padding: 15px 0;
+}
+
+h3 {
+	padding-bottom: 15px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	background-color: #24c285;
+}
+
+hr {
+	border: none; 
+    background-color: #fff;
+    height: 2px;
+	margin: 15px 5% 15px 5%;
+	width: 90%;
+}
+
+.leftSide {
+	background-color: #24c285;
+	width: 30%;
+	text-align: center;
+	border-bottom: 2px solid #fff;
+	border-top:  2px solid #fff;
+	border-left:   2px solid #fff;
+	border-radius: 25px 0 0 25px;
+}
+
+.nonePadding {
+	padding: 0;
+}
+
+.rightSide {
+	background-color: #fff;
+	width: 70%;
+	text-align: justify;
+	padding: 25px;
+	border-radius: 0 25px 25px 0;
+}
+
+.circle-image{
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+}
+
+.circle-image img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+
+.skillicons {
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #24c285;
+	height: 100px;
+	border-right: 2px solid #fff;
+	border-bottom:  2px solid #fff;
+	border-left:   2px solid #fff;
+	border-radius: 0 0 25px 25px;
+	margin-bottom: 5px;
+}
+
+.logoFooter {
+	max-height: 90px;
+}

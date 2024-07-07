@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="bodyWrapper">
+      <header>
+        <nav class="menu">
+          <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#contacts">Contact Information</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#codeExamples">Code Examples</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#language">Language Proficiency</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="leftSide">
+          <h1 id="about">Dima Myagkov</h1>     
+          <h2 class="nonePadding">Frontend Developer</h2>
+          <hr>
+          <span class="circle-image">
+            <img src="./img/profilePhotoDimaMyagkov.jpg" alt="photo profile">
+          </span>
+          <hr>
+          <p class="skillicons">
+            <a href="https://skillicons.dev" target="_blank">
+              <img src="https://skillicons.dev/icons?i=js,html,css,figma,git,ps,github,react,ts&perline=3" alt="icons about skills">
+            </a>
+            </p>
+        </section>
+        <section class="rightSide">
+          <h2>About me</h2>
+          <p>Aspiring frontend developer with a strong foundation in programming and a passion for learning new technologies. My goal is to contribute to impactful projects while continuously enhancing my skills. I am self-motivated, detail-oriented, and thrive in collaborative environments.</p>
+          <h2 id="skills">Skills</h2>
+          <ul>
+            <li>
+              Programming Languages: JavaScript, HTML, CSS
+            </li>
+            <li>
+              Frameworks: I study React, Node.js
+            </li>
+            <li>
+              Methodologies: Agile, Scrum, Kanban
+            </li>
+            <li>
+              Version Control: Git, GitHub
+            </li>
+            <li>
+              Development Tools: VSCode, Make, Lodash, Commander.js
+            </li>
+          </ul>
+          <h2 id="codeExamples">Code Examples</h2>
+          <p>
+            Here is a solution to a problem from Codewars:
+  
+            'You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.'
+          </p>
+          <pre>
+            <code>
+              function getMiddle(s)
+              {
+                if (s.length % 2 === 0) {
+                  const middlePoint = s.length / 2 - 1;
+                  return s.charAt(middlePoint) + s.charAt(middlePoint + 1)
+                } else {
+                  const middlePoint = s.length / 2 - 1;
+                  return s.charAt(middlePoint + 1)
+                }
+              }
+            </code>
+          </pre>
+  
+          <h2 id="experience">Work Experience</h2>
+          <h3>Project: Game: 'Brain Games'</h3>
+          <ul>
+            <li>
+              Description: A set of console quiz games where the player has to answer three questions. If all answers are correct, the player wins. A mistake in answering any question ends the game.
+            </li>
+            <li>
+              Skills Used: JavaScript, Make, Readline-sync
+            </li>
+            <li>
+              GitHub: github.com/TeamOnchik/portfolio
+            </li>
+          </ul>
+          <h2 id="education">Education</h2>
+          <h3>Specialist engineer technologist</h3>
+          <ul>
+            <li>
+              University: Tula State. University
+            </li>
+            <li>
+              Graduation Year: 2013
+            </li>
+          </ul>
+          <h3>Completed Courses and Training</h3>
+          <ul>
+            <li>
+              JavaScript Essentials: Hexlet
+            </li>
+            <li>
+              React Development: Advanced Frontend from Ulbi
+            </li>
+          </ul>
+          <h2 id="language">Language Proficiency</h2>
+            <h3>English</h3>
+            <ul>
+              <li>
+                Level: Intermediate
+              </li>
+              <li>
+                Practice: Reading books, communicating in thematic voice chats, watching specialized videos.
+              </li>
+            </ul>
+            <h3>Russian</h3>
+            <ul>
+              <li>
+                Level: Native speaker
+              </li>
+              <li>
+                Practice: Read books about Russian cultures and language.
+              </li>
+            </ul>
+        </section>
+      </main>
+      <footer>
+        <a href="https://github.com/TeamOnchik" target="_blank">
+        <img class="logoFooter" src="./img/github-mark-white.png" alt="github logo and link">
+        </a>
+        <h3 class="nonePadding">Created in 2024</h3>
+        <a href="https://rs.school/" target="_blank">
+        <img class="logoFooter" src="./img/rsLogo.jpg" alt="rsschool logo and link">
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
